@@ -161,6 +161,10 @@
       }
 
   $(document).ready(function () {
+  
+		if (viewportheight == 0) {
+			viewportheight = 500;
+			}
 
         $('div#overlays').show();
         $('div#overlaydistance').show();
